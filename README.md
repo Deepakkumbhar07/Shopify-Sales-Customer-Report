@@ -1,92 +1,27 @@
-# Shopify-Sales-Customer-Report
+🛍️ Short Description / Purpose
 
-1. Project Title / Headline
+The Shopify Sales & Customer Report is a dynamic Power BI dashboard built to monitor eCommerce performance across sales, customers, retention, and regional trends. It enables decision-makers to track key business metrics such as net sales, order values, repeat customers, and product trends for data-driven decision-making.
 
-🛒 Shopify Sales & Customer Report Dashboard
-An interactive Power BI visualization designed to analyze Shopify sales performance, customer behavior, retention metrics, and regional insights—helping e-commerce businesses make data-driven decisions.
+🧰 Tech Stack
 
-2. Short Description / Purpose
+This dashboard is developed using Power BI as the core visualization tool. DAX (Data Analysis Expressions) is used for all advanced metrics and KPI calculations. It includes interactive filters that allow selection based on measure, payment gateway, and province. Various charts like bar, line, pie, and map are used to visualize sales trends, regional performance, and customer behavior.
 
-The Shopify Sales & Customer Report Dashboard provides a visually rich and analytical overview of key business metrics such as net sales, order quantity, customer retention, payment gateways, and product category performance. It is designed for e-commerce store owners, analysts, and strategists to track growth, optimize sales channels, and understand customer purchase behavior.
+📌 Key Insights
 
-3. Tech Stack
+The total net sales recorded are $4,180,874, with a total of 7,534 units sold. The average order value is $562.6. There are 4,431 total customers, out of which 2,392 are single-order customers and 2,039 are repeat buyers. The repeat rate stands at 46%, and the lifetime value (LTV) per customer is $943.6, with a purchase frequency of 1.68. Geographically, Washington leads all cities in net sales. Shopify Payments is the dominant payment method, accounting for 84.45% of sales.
 
-The dashboard was built using the following tools and technologies:<br>
-• 📊 Power BI Desktop – Main data visualization platform used for report creation.<br>
-• 📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the dataset.<br>
-• 🧠 DAX (Data Analysis Expressions) – Used for calculated KPIs, dynamic visuals, and conditional logic.<br>
-• 📝 Data Modeling – Relationships established among transaction, customer, and regional datasets to enable cross-filtering and aggregation.<br>
-• 📁 File Format – .pbix for development and .png for dashboard previews.
+🗂️ Data Source
 
-4. Data Source
+The report is based on real Shopify export data. This includes customer order records, transaction histories, product categories, payment methods, regional data (state and city), and time-based sales performance.
 
-Source: Shopify sales dataset (sample/mock data for analysis).
+🧩 Features / Highlights
 
-The dataset includes:
+This dashboard addresses the common need for Shopify store owners to view critical sales and customer data in one place, without relying on spreadsheets or multiple platforms. Its goal is to provide a centralized, interactive, and visually rich tool to analyze store performance, customer behavior, and operational trends effectively.
 
-🛍️ Transaction details: order values, quantities, and gateways.
+🔍 Walkthrough of Key Visuals
 
-👥 Customer details: new vs. repeat buyers, purchase frequency.
+The top section displays overall transaction KPIs such as net sales, total quantity sold, and average order value. Customer insights are presented with single vs repeat buyers. Retention metrics include LTV, repeat rate, and frequency. A regional overview map and a corresponding bar chart show which provinces and cities contribute most to sales. Time-based trends show sales over weeks and by hour of the day. Payment methods are visualized with a pie chart, while product categories are shown with a bar chart ranked by net sales.
 
-🌍 Regional sales distribution by provinces and cities.
+📈 Business Impact & Insights
 
-📦 Product categories and contribution to overall sales.
-
-5. Features / Highlights
-• Business Problem
-
-E-commerce businesses often lack a consolidated view of their sales, customer retention, and product performance. Tracking sales across regions, customer types, and payment methods can be challenging without a single unified dashboard.
-
-• Goal of the Dashboard
-
-To deliver an interactive report that:
-
-Monitors sales and transaction performance.
-
-Tracks customer retention, repeat purchase behavior, and lifetime value.
-
-Analyzes sales by region, payment method, and product category.
-
-• Walkthrough of Key Visuals
-
-Transaction KPIs (Top Panel):
-
-Net Sales: $41,80,874
-
-Total Quantity: 7534
-
-Net Avg. Order Value: $562.6
-
-Customer Behavior KPIs:
-
-Total Customers: 4431
-
-Single Order Customers: 2392
-
-Repeat Customers: 2039
-
-Retention & Value Metrics:
-
-Lifetime Value: $943.6
-
-Repeat Rate: 46%
-
-Purchase Frequency: 1.68
-
-Net Sales by Trend Over Time (Line Chart): Shows sales fluctuations across dates.
-
-Regional Overview (Map + Bar Chart): Province and city-level net sales insights.
-
-Net Sales by Payment Method (Donut Chart): Share of sales across Shopify Payments, PayPal, Amazon Payments, etc.
-
-Net Sales by Product Type (Bar Chart): Contribution of categories like clothing, accessories, and digital goods.
-
-• Business Impact & Insights
-
-📈 Customer Loyalty: Nearly half (46%) of customers are repeat buyers, showcasing strong retention.
-
-💳 Payment Insights: Shopify Payments contributes the majority of transactions, indicating gateway dependency.
-
-🌍 Regional Growth: Cities like Washington, Houston, and New York dominate sales, identifying high-value markets.
-
-🛍️ Product Performance: Apparel and accessories lead sales, while low-performing categories highlight opportunities for optimization
+This dashboard provides clear visibility into customer loyalty, with a healthy repeat purchase rate and strong average order value. It helps identify top-performing regions like Washington and highlights the most used payment methods, enabling cost-optimization strategies. Best-selling product categories like beverages can inform inventory and marketing plans. Overall, the dashboard empowers Shopify store owners to make strategic decisions faster and with more confidence.

@@ -1,5 +1,8 @@
 🛍️ Short Description / Purpose
 
+ ![Dashboard Preview](https://github.com/Deepakkumbhar07/Shopify-Sales-Customer-Report/blob/main/Shopify%20Sales%20%26%20Customer%20Report%20dashboard.png)
+
+
 The Shopify Sales & Customer Report is a dynamic Power BI dashboard built to monitor eCommerce performance across sales, customers, retention, and regional trends. It enables decision-makers to track key business metrics such as net sales, order values, repeat customers, and product trends for data-driven decision-making.
 
 🧰 Tech Stack
@@ -25,3 +28,4 @@ The top section displays overall transaction KPIs such as net sales, total quant
 📈 Business Impact & Insights
 
 This dashboard provides clear visibility into customer loyalty, with a healthy repeat purchase rate and strong average order value. It helps identify top-performing regions like Washington and highlights the most used payment methods, enabling cost-optimization strategies. Best-selling product categories like beverages can inform inventory and marketing plans. Overall, the dashboard empowers Shopify store owners to make strategic decisions faster and with more confidence.
+
